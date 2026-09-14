@@ -1,3 +1,14 @@
+error id: file:///C:/Users/TUF-F16/OneDrive/Desktop/Faculdade/Entregavel1-JavaScript/Java/QuickSort.java:local5
+file:///C:/Users/TUF-F16/OneDrive/Desktop/Faculdade/Entregavel1-JavaScript/Java/QuickSort.java
+empty definition using pc, found symbol in pc: 
+found definition using semanticdb; symbol local5
+empty definition using fallback
+non-local guesses:
+
+offset: 235
+uri: file:///C:/Users/TUF-F16/OneDrive/Desktop/Faculdade/Entregavel1-JavaScript/Java/QuickSort.java
+text:
+```scala
 package Java;
 
 public class QuickSort {
@@ -8,7 +19,7 @@ public class QuickSort {
         int pivo = num[fim];
         int i = inicio - 1;
 
-        for (int j = inicio; j < fim; j++) {
+        for (int j = inicio; j@@ < fim; j++) {
             if (num[j] <= pivo) {
                 i++;
                 int temp = num[i];
@@ -32,3 +43,9 @@ public class QuickSort {
             System.out.print(num + " ");
     }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: 
